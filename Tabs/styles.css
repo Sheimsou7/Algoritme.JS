@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Couleur de fond principale */
+    color: #fff; /* Couleur du texte principale */
+}
+
+.tabs {
+    list-style-type: none;
+    display: flex;
+    background-color: #333; /* Couleur d'arrière-plan des onglets */
+    padding: 10px;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 0 5px;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #555; /* Couleur de survol des onglets */
+}
+
+.tab-active {
+    background-color: #e67e22; /* Couleur d'arrière-plan des onglets actifs */
+}
+
+.contents {
+    margin-top: 10px;
+}
+
+.content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #555; /* Couleur de bordure du contenu */
+    background-color: #444; /* Couleur d'arrière-plan du contenu */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content.active {
+    display: block;
+}
