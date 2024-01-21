@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('toggle-dark-mode').addEventListener('click', function() {
+                document.body.classList.toggle('dark-mode');
+            });
+        });
+    </script>
+</head>
+
+<body class="light-mode"
+      class="dark-mode">
+
+
+    <header>
+        <div class="principale">
+            <div class="logo">
+                <a href="#">VEG' <span>Y</span></a>
+            </div>
+            <ul>
+                <li class="active">
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="#">Service</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <button id="toggle-dark-mode"> DARK MODE </button>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="titre">
+        <h1>COMMANDEZ VOTRE BOX</h1>
+    </div>
+    <div class="bouton">
+        <a href="#" class="btn">VISITER</a>
+        <a href="commandez.html" class="btn">COMMANDEZ</a>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</body>
+
+</html>

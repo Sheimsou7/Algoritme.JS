@@ -1,0 +1,32 @@
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark-mode .logo a {
+    border: 1px solid #ffffff;
+}
+
+.dark-mode ul li a {
+    color: #ffffff;
+}
+
+.dark-mode ul li a:hover,
+.dark-mode ul li.active a {
+    background: #ffffff;
+    color: #000000;
+}
+
+.dark-mode .titre h1 {
+    color: #ffffff;
+}
+
+.dark-mode .bouton a {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.dark-mode .btn:hover {
+    background-color: #fff8f8;
+    color: #000000;
+}
